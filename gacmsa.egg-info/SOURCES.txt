@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.cfg
+setup.py
+bin/gacmsa
+gacmsa/__init__.py
+gacmsa/__main__.py
+gacmsa/gacmsa.py
+gacmsa/loggingformatter.py
+gacmsa/msatools.py
+gacmsa.egg-info/PKG-INFO
+gacmsa.egg-info/SOURCES.txt
+gacmsa.egg-info/dependency_links.txt
+gacmsa.egg-info/entry_points.txt
+gacmsa.egg-info/not-zip-safe
+gacmsa.egg-info/requires.txt
+gacmsa.egg-info/top_level.txt
