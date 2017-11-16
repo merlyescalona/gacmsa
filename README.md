@@ -11,6 +11,16 @@ University of Vigo, Spain, http://darwin.uvigo.es
 - Assumes the input file is a Multiple Sequence Alignment file, meaning, all
 sequences have the same length.
 
+# Install
+
+Clone this repository and install it with user privileges
+
+```
+git clone https://github.com/merlyescalona/gacmsa.git
+cd gacmsa
+python setup.py instal --user
+```
+
 # Usage:
 ```
 usage: gacmsa.py -i <filepath> -o <filepath> [-l <log_level>] [-v] [-h]
