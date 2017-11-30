@@ -1,5 +1,8 @@
 
 **GACMSA**: **G**et **A**llelic **C**ount from **M**ultiple **S**equence **A**lignments
+-----
+
+[![Build Status](https://travis-ci.org/merlyescalona/gacmsa.svg?branch=master)](https://travis-ci.org/merlyescalona/gacmsa)
 
 © 2017 Merly Escalona (<merlyescalona@uvigo.es>)
 
