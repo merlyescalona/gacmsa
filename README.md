@@ -93,17 +93,11 @@ $gacmsa -i data.fasta -o gacmsa.output
 ```
 
 
-Then, from the file we can remove the last lines so we can plot the information with R code:
-
-```
-head -8  gacmsa.output > gacmsa.notail.output
-```
-
 Then we can user R, with the following code to obtain the frequencies of the monoallelic, di-allelic, tri-allelic and tetra-allelic sites (if they exist in the MSA).
 
 ```{R}
 library(ggplot2)
-mydata=read.table("gacmsa.notail.output", header=T)
+mydata=read.table("gacmsa.notail.output", header=T, nrow=7)
 rowNames=mydata[,1]
 rownames(mydata)=rowNames
 mydata=mydata[,2:ncol(mydata)]
