@@ -5,8 +5,9 @@ matrix:
             language: python
             python: 2.7
         -   os: osx
-install:
+before_install:
     - pip install -r requirements.txt
+install:
     - python setup.py install --user
 script:
     - test/test.sh
