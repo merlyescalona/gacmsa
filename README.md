@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/merlyescalona/gacmsa.svg?branch=master)](https://travis-ci.org/merlyescalona/gacmsa)
 
+[![Coverage Status](https://coveralls.io/repos/github/merlyescalona/gacmsa/badge.svg?branch=master)](https://coveralls.io/github/merlyescalona/gacmsa?branch=master)
+
 © 2017 Merly Escalona (<merlyescalona@uvigo.es>)
 
 University of Vigo, Spain, http://darwin.uvigo.es
