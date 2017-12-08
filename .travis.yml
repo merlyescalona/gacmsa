@@ -8,10 +8,10 @@ matrix:
                 - pip install -r requirements.txt
             install:
                 - python setup.py install
-        -   os: osx
-            install:
-                - python setup.py install --user
-                - export PATH=$PATH:$(pwd)/gacmsa/bin
+        # -   os: osx
+        #     install:
+        #         - python setup.py install --user
+        #         - export PATH=$PATH:$(pwd)/gacmsa/bin
 script:
     - bash test/test.sh
 after_install:
