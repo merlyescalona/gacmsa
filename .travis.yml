@@ -6,9 +6,11 @@ matrix:
             python: 2.7
             before_install:
                 - pip install -r requirements.txt
+            install:
+                - python setup.py install
         -   os: osx
-install:
-    - python setup.py install
+            install:
+                - python setup.py install --user
 script:
     - bash test/test.sh
 after_install:
